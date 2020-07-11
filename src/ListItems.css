@@ -1,0 +1,35 @@
+.list{
+    width: 300px;
+    height: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+   
+    
+}
+.list p{
+    padding: 10px;
+    position: relative;
+    
+}
+.list p span{
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    
+}
+.faicons{
+    color: crimson;
+    margin: 0 25px;
+    font-size: 15px;
+}
+.card{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 5;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
